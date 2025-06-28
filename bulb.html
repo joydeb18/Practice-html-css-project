@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb On Off Project</title>
+    <style>
+        body {
+            background-color: #000;
+        }
+        #a_button{
+            width: 400px;
+            height: 500px;
+            margin: auto;
+            background-color: green;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function clickme(state) {
+            alert(state);
+            if (state == 'on') {
+                var joy = document.getElementById('myimg');
+                joy.style.width = '200px';
+                joy.style.height = "350px";
+                document.body.style.backgroundColor = "Yellow";
+                document.getElementById('myimg').setAttribute('src', 'data:image/png;base64,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')
+            }
+            else {
+                document.body.style.backgroundColor = "black";
+                document.getElementById('myimg').setAttribute('src', 'https://i.pinimg.com/originals/e0/fd/25/e0fd25f9127a9a109a0648c83ee61643.png')
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="a_button">
+        <img id="myimg" width=200px src="https://i.pinimg.com/originals/e0/fd/25/e0fd25f9127a9a109a0648c83ee61643.png"
+            alt="Not available">
+
+            <br><br>
+        <button onclick="clickme('on')">ON</button>
+        <button onclick="clickme('off')">OFF</button>
+    </div>
+</body>
+
+</html>
