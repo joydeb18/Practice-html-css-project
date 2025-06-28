@@ -1,0 +1,11 @@
+
+
+
+.cart_list{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 35px;
+
+ }
+

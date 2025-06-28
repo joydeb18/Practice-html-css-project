@@ -1,0 +1,156 @@
+/*common css file*/
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'Montserrat', sans-serif;
+    box-sizing:border-box;
+}
+
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d60a3;
+    --padding-inline-section: 20px;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.25rem;
+        color: var(--secondary-text-color);
+        list-style: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none; /*Remove default list style*/
+}
+/*Utility classes*/
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container{ /*Centering container for content*/
+    max-width: 1180px;
+    margin-inline: auto; /*left and right margins auto for centering*/
+    padding-inline: var(--padding-inline-section); /*left and right padding for spacing*/
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+}
+
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color:white !important;
+    padding: 14px 20px;
+}
+
+.secondary-button{
+    border: 0.5px solid var(--accent-color);
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+/*Top Banner*/
+
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url('./Assets/top-nav.png');
+}
+.banner-text{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+/*Main Navigation*/
+.main-nav{
+    justify-content: space-between;
+}
+
+.company-logo img{
+    width: 100px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 35px;
+    font-weight: 500;
+}
+
+.hover-links{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out; 
+}
+
+.hover-links:hover{
+    color: var(--accent-color);
+}
+
+/*Hero Section*/
+.right img{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+.hero-section{
+    justify-content: space-between;
+   gap: 20px;
+}
+
+.left h1{
+    margin-bottom: 10px;
+    padding:30px 0px; 
+    position: relative;
+    margin-top: -30px;
+    font-weight: 700;
+}
+.left p{
+    line-height: 30px;
+    font-weight: 400;
+}
+.companies-flex{
+    justify-content: center;
+    margin-top: 30px;
+    gap: 60px;
+}
+.companies-flex img{
+    width: 100px;
+    height: 50px;
+    margin-left: -5px;
+    gap: 0;
+
+}
+.companies-section h4{
+    text-align: center;;
+    font-weight: normal;
+}
+.features-section{
+    background-image:  url('./Assets/top-nav.png');
+}
