@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+#menu{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #5E3DEE;
+    padding: 10px 0;
+    
+}
+.fixed{
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+   position: fixed;
+  
+}
+.container{
+    background-color: #5E3DEE ;
+    padding: 0;
+    margin: 0;
+}
+div{
+    padding : 5px;
+    /*border: 2px solid grey;*/
+}
+.menu-item{
+    color: #ffffffcc;
+    font-weight: bold;
+    padding: 9px 15px;
+    font-size: 1rem;
+}
+.menu-item:hover{
+    color: white;
+    cursor: pointer;
+}
+.round-btn{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px 25px;
+}
+.round-btn:hover{
+    background-color: white;
+    color: #5E3DEE;
+}
+#logo{
+    font-size: 1.5rem;
+    color   :white;
+    font-weight: bold;
+    margin-right: auto;
+
+}
+
+
+/*Home*/
+
+#home{
+    display: flex;
+    background-color: #5E3DEE;
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    padding-top: 60px;
+    
+}
+.title-graphic img{
+    max-width: 800px;
+    min-height: 350px;
+    transform: rotate(20deg);
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+.signup-btn{
+    color: #5E3DEE;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+.signup-btn:hover{
+    background-color:#5E3DEE;
+    color: white;
+}
+
+/*Animation SVG*/
+
+.container_svg > svg{
+    color: white;
+    margin-top: -165px;
+   /* transform: rotate(-2deg);*/
+}
+.container_svg{
+    background-color: #5E3DEE;
+    padding: 0;
+    margin: 0;
+}
+
+.marketing, .cards{
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.img1 img{
+    max-width: 200px;
+    margin-left: 15px;  
+}
+.marketing h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.marketing p{
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    
+}
+.card_title_text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.card_title_description{
+    max-width: 200px;
+    margin-left: 30px;
+    font-family: cursive;
+    color: #5E3DEE;
+    font-size: .9rem;
+}
+
+.marketing-card{
+   
+    width: 240px;
+}
+
